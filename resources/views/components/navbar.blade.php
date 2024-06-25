@@ -11,7 +11,7 @@
             <div class="btn-group ms-auto">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <i class="mdi mdi-earth me-2"></i>{{ $locale === 'en' ? 'EN' : ($locale !== null ? strtoupper($locale) : 'ID') }}
+                    <i class="mdi mdi-earth me-2"></i>{{ $locale === 'en' ? 'EN' : ($locale ? strtoupper($locale) : 'EN') }}
                 </button>
                 @php $locale = session()->get('locale'); @endphp
                 <ul class="dropdown-menu dropdown-menu-end">

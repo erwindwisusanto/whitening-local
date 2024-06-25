@@ -22,8 +22,10 @@
             <div class="text-center">
                 @if ($locale === 'en')
                     <img src="assets/img/img-skinproblem.png" class="img-title-fever" alt="">
-                @else
+                @elseif($locale === 'id')
                     <img src="assets/img/img-skinproblem-indo.png" class="img-title-fever" alt="">
+                @else
+                    <img src="assets/img/img-skinproblem.png" class="img-title-fever" alt="">
                 @endif
             </div>
         </section>
@@ -42,8 +44,10 @@
         <section class="price">
             @if ($locale === 'en')
                 <img src="assets/img/price.svg" class="img-price" alt="">
-            @else
+            @elseif($locale === 'en')
                 <img src="assets/img/price-indo.svg" class="img-price" alt="">
+            @else
+                <img src="assets/img/price.svg" class="img-price" alt="">
             @endif
         </section>
 
@@ -93,8 +97,10 @@
                         <div class="d-flex justify-content-center">
                             @if ($locale === 'en')
                                 <img src="assets/img/img-package.svg" class="img-package" alt="">
-                            @else
+                            @elseif($locale === 'id')
                                 <img src="assets/img/img-package-indo.svg" class="img-package" alt="">
+                            @else
+                                <img src="assets/img/img-package.svg" class="img-package" alt="">
                             @endif
                         </div>
                     </div>
