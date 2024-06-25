@@ -4,14 +4,24 @@
             <a href="" class="nav-brand">
                 <img src="assets/img/logo.png" alt="">
             </a>
+            @php
+                $locale = session()->get('locale');
+                $available_locales = config('app.available_locales');
+            @endphp
             <div class="btn-group ms-auto">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <i class="mdi mdi-earth me-2"></i> EN
+                    <i class="mdi mdi-earth me-2"></i>{{ $locale === 'en' ? 'EN' : ($locale !== null ? strtoupper($locale) : 'ID') }}
                 </button>
+                @php $locale = session()->get('locale'); @endphp
                 <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="?lang=en" type="button">English</a></li>
-                    <li><a class="dropdown-item" href="?lang=id" type="button">Indonesia</a></li>
+                    @foreach($available_locales as $key => $name)
+                        <li>
+                            <a class="dropdown-item" href="{{ route('change_locale', ['locale' => $name]) }}" type="button">
+                                {{ $key }}
+                            </a>
+                        </li>
+                    @endforeach
                 </ul>
             </div>
         </div>

@@ -10,12 +10,11 @@
         <div class="row mt-4">
             <div class="col-md-12 text-white">
                 <p class="fs-14">
-                    <b> Clinic Cepat Sehat </b> is a clinic registered under the laws of Indonesia with the
-                    registration number 04102100035090001.
+                    <b> {{__('index.footer.text_1')}} </b> {{__('index.footer.text_2')}}
                 </p>
                 <div class="location">
                     <p class="fs-14">
-                        Enjoy our homecare service from the comfort of your home. We are also available offline at:
+                        {{__('index.footer.text_3')}}
                     </p>
                     <div class="row g-3">
                         <div class="col-md-4">

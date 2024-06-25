@@ -95,6 +95,12 @@ return [
 
     'fallback_locale' => 'en',
 
+
+    'available_locales' => [
+        'English' => 'en',
+        'Indonesia' => 'id',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Faker Locale
