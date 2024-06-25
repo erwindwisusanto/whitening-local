@@ -16,7 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="{{ asset("assets/img/favicon.svg") }}">
 
     <!-- fontello -->
     <link rel="stylesheet" href="assets/fontello/css/csehat.css">
