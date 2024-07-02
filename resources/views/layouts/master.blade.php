@@ -171,9 +171,8 @@
         }
 
         $(document).ready(function () {
-            setTimeout(function () {
-                visitCounter();
-            }, 2000);
+            visitCounter();
+
             new Swiper('.swiper-article', {
                 loop: true,
                 slidesPerView: 3,
@@ -237,10 +236,10 @@
                 }, 1000); // added duration for smooth scrolling
                 return false;
             });
-        });
 
-        window.addEventListener('beforeunload', function (e) {
-            navigator.sendBeacon('/destroy-session');
+            window.addEventListener('beforeunload', function (e) {
+                navigator.sendBeacon('/destroy-session');
+            });
         });
     </script>
 
