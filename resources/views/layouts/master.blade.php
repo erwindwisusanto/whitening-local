@@ -60,6 +60,7 @@
                 url: '{{ route('visit-count') }}',
                 type: 'POST',
                 data: {
+                    _token: '{{ csrf_token() }}',
                     url: baseUrl,
                     campaign: campaignName,
                     source: webSource,
