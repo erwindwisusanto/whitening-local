@@ -76,7 +76,7 @@
             </div>
             <div class="col-md-12">
                 <div class="d-flex align-items-center">
-                    <a href="https://api.whatsapp.com/send/?phone=6285212500030"
+                    <a onclick="directurl('wa')"
                         class="phone text-white fs-14 d-flex align-items-center">
                         <i class="mdi mdi-phone me-2 fs-24"></i> +62 852-1250-0030
                     </a>
