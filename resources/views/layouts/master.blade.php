@@ -54,8 +54,8 @@
         const campaignName = "{{ request()->query('camp') }}";
         const webSource = "whitening_clinics";
 
-        const visitCounter = async () => {
-            const resp =  await $.ajax({
+        const visitCounter = () => {
+            $.ajax({
                 url: '{{ route('visit-count') }}',
                 type: 'POST',
                 data: {
