@@ -171,7 +171,9 @@
         }
 
         $(document).ready(function () {
-            visitCounter();
+            setTimeout(function () {
+                visitCounter();
+            }, 2000);
             new Swiper('.swiper-article', {
                 loop: true,
                 slidesPerView: 3,
