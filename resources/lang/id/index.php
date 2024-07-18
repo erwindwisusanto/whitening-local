@@ -42,7 +42,7 @@ return [
     ],
     "footer" => [
         "text_1" => "Klinik Cepat Sehat adalah klinik yang terdaftar di bawah hukum Indonesia dengan nomor registrasi 04102100035090001.",
-        "text_2" => "Selamat datang di divisi pemutihan dan kesehatan kulit di klinik kami, yang didedikasikan untuk memberikan perawatan khusus untuk mendapatkan kulit yang bercahaya dan sehat.",
+        "text_2" => "Selamat datang di Beauty Center Klinik Cepat Sehat,  didedikasikan untuk menyediakan perawatan khusus untuk mencapai kulit yang cerah dan sehat.",
         "text_3" => "Nikmati layanan homecare kami dari rumah Anda. Kami juga tersedia secara offline di:",
     ]
 ];
