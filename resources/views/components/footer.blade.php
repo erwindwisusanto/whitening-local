@@ -10,7 +10,7 @@
         <div class="row mt-4">
             <div class="col-md-12 text-white">
                 <p class="fs-14">
-                    <b> {{__('index.footer.text_1')}} </b> {{__('index.footer.text_2')}}
+                    {{__('index.footer.text_1')}} <br> {{__('index.footer.text_2')}}
                 </p>
                 <div class="location">
                     <p class="fs-14">

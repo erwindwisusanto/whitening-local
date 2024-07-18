@@ -41,8 +41,8 @@ return [
         "jane" => "Kulit saya terasa lebih cerah dan segar setelah mengambil beberapa sesi infus. Ini membuat saya lebih percaya diri dengan kulit yang lebih cerah. Terima kasih, White Glow Beauty!.",
     ],
     "footer" => [
-        "text_1" => "Klinik Cepat Sehat",
-        "text_2" => "adalah klinik yang terdaftar di bawah hukum Indonesia dengan nomor registrasi 04102100035090001.",
+        "text_1" => "Klinik Cepat Sehat adalah klinik yang terdaftar di bawah hukum Indonesia dengan nomor registrasi 04102100035090001.",
+        "text_2" => "Selamat datang di divisi pemutihan dan kesehatan kulit di klinik kami, yang didedikasikan untuk memberikan perawatan khusus untuk mendapatkan kulit yang bercahaya dan sehat.",
         "text_3" => "Nikmati layanan homecare kami dari rumah Anda. Kami juga tersedia secara offline di:",
     ]
 ];

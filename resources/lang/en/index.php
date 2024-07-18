@@ -41,8 +41,8 @@ return [
         "jane" => "After struggling with dull skin for years, the whitening package infusion made a visible difference. My complexion is brighter, dark spots have faded, and my skin texture improved.",
     ],
     "footer" => [
-        "text_1" => "Clinic Cepat Sehat ",
-        "text_2" => "is a clinic registered under the laws of Indonesia with the registration number 04102100035090001.",
+        "text_1" => "Clinic Cepat Sehat is a registered clinic under the laws of Indonesia with the registration number 04102100035090001.",
+        "text_2" => "Welcome to the whitening and skin health division of our clinic, dedicated to providing specialized treatments for achieving radiant and healthy skin.",
         "text_3" => "Enjoy our homecare service from the comfort of your home. We are also available offline at:",
     ]
 ];
