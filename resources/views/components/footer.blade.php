@@ -78,7 +78,7 @@
                 <div class="d-flex align-items-center">
                     <a onclick="directurl('whatsapp')"
                         class="phone text-white fs-14 d-flex align-items-center">
-                        <i class="mdi mdi-phone me-2 fs-24"></i> +62 852-1250-0030
+                        <i class="mdi mdi-phone me-2 fs-24"></i> +62 822-211-22311
                     </a>
                     <div class="sosmed list-inline ms-auto">
                         <a href="#" class="list-inline-item text-white">
