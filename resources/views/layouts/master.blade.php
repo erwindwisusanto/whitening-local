@@ -53,7 +53,7 @@
         const baseUrl = "{{ request()->root() }}";
         const campaignName = "{{ request()->query('camp') }}";
         const _SOURCE = "whitening_clinics";
-        const numberphone = "6285212500030";
+        const numberphone = "6282221122311";
         const telegramUsername = 'cepat_sehat';
         const _WHATSAPP = "whatsapp";
         const _TELEGRAM = "telegram";
@@ -138,7 +138,7 @@
                 case _WHATSAPP:
                     if (campaignName) {
                         updateCounter(_WHATSAPP);
-                        window.open(`https://web.WhatsApp.com/send?phone=${encodeURIComponent(numberphone)}&text=${encodeURIComponent(waword)}`, '_blank');
+                        window.open(`https://api.whatsapp.com/send/?phone=${encodeURIComponent(numberphone)}&text=${encodeURIComponent(waword)}&type=phone_number&app_absent=0`, '_blank');
                         break;
                     } else {
                         updateCounter(_WHATSAPP);
