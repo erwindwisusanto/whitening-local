@@ -136,9 +136,15 @@
         const directurl = (platform) => {
             switch (platform) {
                 case _WHATSAPP:
-                    updateCounter(_WHATSAPP);
-                    window.open(`https://web.WhatsApp.com/send?phone=${encodeURIComponent(numberphone)}&text=${encodeURIComponent(waword)}`, '_blank');
-                    break;
+                    if (campaignName) {
+                        updateCounter(_WHATSAPP);
+                        window.open(`https://web.WhatsApp.com/send?phone=${encodeURIComponent(numberphone)}&text=${encodeURIComponent(waword)}`, '_blank');
+                        break;
+                    } else {
+                        updateCounter(_WHATSAPP);
+                        window.open(`https://api.whatsapp.com/send/?phone=6282221122311&text=Hello+denguehospital.com+by+Cepat+Sehat+Clinic%2C+I+want+a+consultation&type=phone_number&app_absent=0`, '_blank');
+                        break;
+                    }
                 case _TELEGRAM:
                     updateCounter(_TELEGRAM);
                     window.open(`https://t.me/${telegramUsername}?text=${encodeURIComponent(waword)}`, '_blank');
