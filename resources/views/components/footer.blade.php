@@ -73,6 +73,59 @@
                         <div class="col-md-3">
                             <ul>
                                 <li>
+                                    <h6>Sanur</h6>
+                                    <p class="mb-0 fs-14">
+                                        Jl. Batur Sari No.33, Sanur Kauh, Denpasar Selatan, Kota Denpasar, Bali 80228
+                                    </p>
+                                    <a href="https://maps.app.goo.gl/63Ls1VN8p8khiHW37?g_st=ic" target="_blank"
+                                        class="text-decoration-underline mt-2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/maps-icon.svg" class="me-2" alt="">
+                                            <span class="fw-bold fs-14 text-white">Read Our Top Reviews!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <h6>Umalas</h6>
+                                    <p class="mb-0 fs-14">
+                                        Jl. Umalas 1 No.6, Kerobokan Kelod, Kec. Kuta Utara, Kabupaten Badung, Bali 80361
+                                    </p>
+                                    <a href="https://maps.app.goo.gl/EqiKuhShnbneW4Wh8?g_st=ic" target="_blank"
+                                        class="text-decoration-underline mt-2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/maps-icon.svg" class="me-2" alt="">
+                                            <span class="fw-bold fs-14 text-white">Explore Our Stellar Ratings!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
+                                    <h6>Pererenan</h6>
+                                    <p class="mb-0 fs-14">
+                                        Jl. Jantuk Angsa Desa No.20, Pererenan, Kec. Mengwi, Kabupaten Badung, Bali 80351
+                                    </p>
+                                    <a href="https://maps.app.goo.gl/fRJuxZEuW6gAxxV97?g_st=ic" target="_blank"
+                                        class="text-decoration-underline mt-2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/maps-icon.svg" class="me-2" alt="">
+                                            <span class="fw-bold fs-14 text-white">Check Out Patient Reviews!</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
                                     <h6>Jakarta</h6>
                                     <p class="mb-0 fs-14">
                                         Jl. Peternakan No. 13, Kel. Tengah, Kec. Kramatjati, Kota Adm. Jakarta
