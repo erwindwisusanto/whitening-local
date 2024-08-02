@@ -56,6 +56,23 @@
                         <div class="col-md-3">
                             <ul>
                                 <li>
+                                    <h6>Canggu</h6>
+                                    <p class="mb-0 fs-14">
+                                        Jl. Raya Canggu No.12, Canggu, Kec. Kuta Utara, Kabupaten Badung, Badung, Bali 80351
+                                    </p>
+                                    <a href="https://maps.app.goo.gl/JmcKg5kFWsdQPVnu5" target="_blank"
+                                        class="text-decoration-underline mt-2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="assets/img/maps-icon.svg" class="me-2" alt="">
+                                            <span class="fw-bold fs-14 text-white">See Our Patient Experiences !</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <li>
                                     <h6>Jakarta</h6>
                                     <p class="mb-0 fs-14">
                                         Jl. Peternakan No. 13, Kel. Tengah, Kec. Kramatjati, Kota Adm. Jakarta
@@ -66,23 +83,6 @@
                                         <div class="d-flex align-items-center">
                                             <img src="assets/img/maps-icon.svg" class="me-2" alt="">
                                             <span class="fw-bold fs-14 text-white">What Patients Are Saying!</span>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul>
-                                <li>
-                                    <h6>Canggu</h6>
-                                    <p class="mb-0 fs-14">
-                                        Jl. Raya Canggu No.12, Canggu, Kec. Kuta Utara, Kabupaten Badung, Badung, Bali 80351
-                                    </p>
-                                    <a href="https://maps.app.goo.gl/JmcKg5kFWsdQPVnu5" target="_blank"
-                                        class="text-decoration-underline mt-2">
-                                        <div class="d-flex align-items-center">
-                                            <img src="assets/img/maps-icon.svg" class="me-2" alt="">
-                                            <span class="fw-bold fs-14 text-white">See Our Patient Experiences !</span>
                                         </div>
                                     </a>
                                 </li>
