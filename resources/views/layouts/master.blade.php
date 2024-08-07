@@ -142,7 +142,7 @@
                         break;
                     } else {
                         updateCounter(_WHATSAPP);
-                        window.open(`https://api.whatsapp.com/send/?phone=6282221122311&text=Hello+denguehospital.com+by+Cepat+Sehat+Clinic%2C+I+want+a+consultation&type=phone_number&app_absent=0`, '_blank');
+                        window.open(`https://api.whatsapp.com/send/?phone=6282221122311&text=Hello+whiteningclinics.com+by+Cepat+Sehat+Clinic%2C+I+want+a+consultation&type=phone_number&app_absent=0`, '_blank');
                         break;
                     }
                 case _TELEGRAM:
