@@ -20,16 +20,16 @@
                         <div class="col-md-3">
                             <ul>
                                 <li>
-                                    <h6>Seminyak</h6>
+                                    <h6>Jakarta</h6>
                                     <p class="mb-0 fs-14">
-                                        Jl. Legian No.369 X, Legian, Kuta, Badung Regency, Bali 80361
+                                        Jl. Peternakan No. 13, Kel. Tengah, Kec. Kramatjati, Kota Adm. Jakarta
+                                        Timur, DKI Jakarta 13510
                                     </p>
-                                    <a href="https://maps.app.goo.gl/A4hPnNt7zKB7tU8p9" target="_blank"
+                                    <a href="https://maps.app.goo.gl/GXcf4eYkS2PxcneL6" target="_blank"
                                         class="text-decoration-underline mt-2">
                                         <div class="d-flex align-items-center">
                                             <img src="assets/img/maps-icon.svg" class="me-2" alt="">
-                                            <span class="fw-bold fs-14 text-white">Find Out Why Patients Love
-                                                Us!</span>
+                                            <span class="fw-bold fs-14 text-white">What Patients Are Saying!</span>
                                         </div>
                                     </a>
                                 </li>
@@ -126,16 +126,16 @@
                         <div class="col-md-3">
                             <ul>
                                 <li>
-                                    <h6>Jakarta</h6>
+                                    <h6>Seminyak</h6>
                                     <p class="mb-0 fs-14">
-                                        Jl. Peternakan No. 13, Kel. Tengah, Kec. Kramatjati, Kota Adm. Jakarta
-                                        Timur, DKI Jakarta 13510
+                                        Jl. Legian No.369 X, Legian, Kuta, Badung Regency, Bali 80361
                                     </p>
-                                    <a href="https://maps.app.goo.gl/GXcf4eYkS2PxcneL6" target="_blank"
+                                    <a href="https://maps.app.goo.gl/A4hPnNt7zKB7tU8p9" target="_blank"
                                         class="text-decoration-underline mt-2">
                                         <div class="d-flex align-items-center">
                                             <img src="assets/img/maps-icon.svg" class="me-2" alt="">
-                                            <span class="fw-bold fs-14 text-white">What Patients Are Saying!</span>
+                                            <span class="fw-bold fs-14 text-white">Find Out Why Patients Love
+                                                Us!</span>
                                         </div>
                                     </a>
                                 </li>

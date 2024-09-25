@@ -2,16 +2,16 @@
 
 return [
     "text_banner_1" => "Welcome to White Glow Beauty",
-    "text_banner_2" => "Your Destination for Flawless",
+    "text_banner_2" => "Reveal Your Healthy, Glowing Skin with Our Top Treatments",
     "text_banner_3" => "Whitening Beauty!",
     "text_banner_button" => "Doctor Consultation",
     "section_2" => [
         "text_header" => "Skin Problems"
     ],
     "section_3" => [
-        "text_1" => "Look no further than",
-        "text_2" => "White Glow Beauty!",
-        "text_3" => "We specialize in luxurious whitening infusion services and top-quality beauty products to help you unveil your inner radiance.",
+        "text_1" => "White Glow Beauty",
+        "text_2" => "Your Top Choice for Whitening Infusions!",
+        "text_3" => "We offer the best whitening infusions and beauty products to help you achieve flawless and glowing skin",
     ],
     "section_5" => [
         "text_1" => "Benefit",
@@ -33,7 +33,7 @@ return [
             "prod_4" => "Whitening Toners",
         ],
     ],
-    "section_7" => "Discover the power of whitening infusion services and premium skincare products today!",
+    "section_7" => "Experience whitening infusions for a healthier, more radiant complexionall day long!",
     "section_8" => [
         "text_header" => "Customer Testimonial",
         "sarah" => "The pharmacists were very helpful in answering my questions. Highly recommend!",
