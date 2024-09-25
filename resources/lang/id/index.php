@@ -2,16 +2,16 @@
 
 return [
     "text_banner_1" => "Selamat Datang di White Glow Beauty",
-    "text_banner_2" => "Destinasi Anda untuk Kecantikan Alami",
+    "text_banner_2" => "Wujudkan Kulit Sehat & Glowing dengan Perawatan Terbaik",
     "text_banner_3" => "Putih Bercahaya!",
     "text_banner_button" => "Konsultasi Dokter",
     "section_2" => [
         "text_header" => "Masalah Kulit"
     ],
     "section_3" => [
-        "text_1" => "Hanya",
-        "text_2" => "White Glow Beauty!",
-        "text_3" => "Kami ahli dalam layanan infus whitening premium dan produk kecantikan berkualitas tinggi untuk membantu memancarkan sinar kecantikan Anda.",
+        "text_1" => "White Glow Beauty",
+        "text_2" => "Pilihan Terbaik untuk Infus Whitening!",
+        "text_3" => "Kami menghadirkan infus whitening terbaik dan produk kecantikan untuk meraih tampilan kulit yang bersih dan bersinar",
     ],
     "section_5" => [
         "text_1" => "Manfaat",
@@ -33,7 +33,7 @@ return [
             "prod_4" => "Whitening Toners",
         ],
     ],
-    "section_7" => "Temukan kekuatan layanan infus pemutih dan produk perawatan kulit premium kami sekarang!",
+    "section_7" => "Nikmati layanan infus pemutih untuk kulit yang tampak lebih sehat dan cerah sepanjang hari!",
     "section_8" => [
         "text_header" => "Testimoni Pelanggan",
         "sarah" => "Apoteker sangat membantu dalam menjawab pertanyaan saya. Sangat direkomendasikan!",
