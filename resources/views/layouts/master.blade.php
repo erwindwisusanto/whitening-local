@@ -38,6 +38,7 @@
 
     <!-- custom -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>

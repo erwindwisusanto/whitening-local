@@ -43,13 +43,28 @@
         </section>
 
         <section class="price">
-            @if ($locale === 'en')
-                <img src="assets/img/price.svg" class="img-price" alt="">
-            @elseif($locale === 'en')
-                <img src="assets/img/price-indo.svg" class="img-price" alt="">
+            {{-- @if ($locale === 'en')
+                <img src="assets/img/price.svg" class="img-price" alt="Price Image">
+            @elseif($locale === 'id')  <!-- Corrected locale check for Indonesian language -->
+                <img src="assets/img/price-indo.svg" class="img-price" alt="Indonesian Price Image">
             @else
-                <img src="assets/img/price.svg" class="img-price" alt="">
-            @endif
+                <img src="assets/img/price.svg" class="img-price" alt="Default Price Image">
+            @endif --}}
+
+            <img src="assets/img/price_indo.png" class="img-price" alt="Price Indo Image"> <!-- Optional fallback image -->
+
+            <div class="row text-center gx-0">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <img src="assets/img/price_c.png" class="" alt="Price C">
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <img src="assets/img/price_b.png" class="" alt="Price B">
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <img src="assets/img/price_a.png" class="" alt="Price A">
+                </div>
+            </div>
+            <span style="color: white; padding: 0px 20px 0px 20px; font-weight: 500;">* {{__('index.section_4.text_1')}}</span>
         </section>
 
         <section class="benefit">
@@ -90,6 +105,10 @@
                                 <div class="items-benefit">
                                     <img src="assets/img/benefit/icon-benefit07.svg" alt="">
                                     <span> {{__('index.section_5.text_8')}} </span>
+                                </div>
+                                <div class="items-benefit">
+                                    <img src="assets/img/icon_manfaat_8.png" alt="" style="width: 14%">
+                                    <span> {{__('index.section_5.text_9')}} </span>
                                 </div>
                             </div>
                         </div>

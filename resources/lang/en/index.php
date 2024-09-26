@@ -13,6 +13,9 @@ return [
         "text_2" => "Your Top Choice for Whitening Infusions!",
         "text_3" => "We offer the best whitening infusions and beauty products to help you achieve flawless and glowing skin",
     ],
+    "section_4" => [
+        "text_1" => "A comprehensive treatment with infusions administered every two weeks for optimal results",
+    ],
     "section_5" => [
         "text_1" => "Benefit",
         "text_2" => "Brightening Facial Skin",
@@ -22,6 +25,7 @@ return [
         "text_6" => "Boosting Collagen Production",
         "text_7" => "Slowing Down Aging Process",
         "text_8" => "Nourishing the Skin",
+        "text_9" => "Deeply hydrates the skin"
     ],
     "section_6" => [
         "text_header" => "Additional Skincare Products",
