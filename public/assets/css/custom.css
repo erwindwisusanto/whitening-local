@@ -1,0 +1,42 @@
+section.price {
+    padding-block: 48px;
+    background-color: #01737F;
+    display: grid;
+    justify-content: center;
+    gap: 24px; /* Adds space between items */
+}
+
+section.price .row {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column on small screens */
+    gap: 24px; /* Increased spacing between columns */
+}
+
+@media (min-width: 768px) {
+    section.price .row {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+        gap: 32px; /* Adjust spacing for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    section.price .row {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+        gap: 40px; /* Increased spacing for large screens */
+    }
+}
+
+.img-price {
+    max-width: 90%; /* Increase the max-width */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the images */
+    padding: 16px; /* Add some padding to give space around the images */
+}
+
+@media (min-width: 992px) {
+    .img-price {
+        max-width: 100%; /* Reduce the width slightly on large screens to balance */
+    }
+}
+

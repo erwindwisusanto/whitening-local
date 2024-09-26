@@ -13,6 +13,9 @@ return [
         "text_2" => "Pilihan Terbaik untuk Infus Whitening!",
         "text_3" => "Kami menghadirkan infus whitening terbaik dan produk kecantikan untuk meraih tampilan kulit yang bersih dan bersinar",
     ],
+    "section_4" => [
+        "text_1" => "Perawatan lengkap dengan infus dapat diberikan setiap dua minggu sekali untuk hasil yang optimal.",
+    ],
     "section_5" => [
         "text_1" => "Manfaat",
         "text_2" => "Mencerahkan kulit wajah",
@@ -22,6 +25,7 @@ return [
         "text_6" => "Mempercepat produksi kolagen",
         "text_7" => "Mencegah penuaan dini",
         "text_8" => "Menutrisi kulit",
+        "text_9" => "Menghidrasi kulit secara mendalam"
     ],
     "section_6" => [
         "text_header" => "Produk perawatan kulit tambahan",
