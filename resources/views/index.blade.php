@@ -212,7 +212,7 @@
                                     </p>
                                 </div>
                                 <div class="name">
-                                    <img src="assets/img/avatar/testi_1.webp" alt="">
+                                    <img src="assets/img/avatar/testi_3.webp" alt="">
                                     <div class="rate d-flex g-2">
                                         <i class="mdi mdi-star text-warning"></i>
                                         <i class="mdi mdi-star text-warning"></i>
