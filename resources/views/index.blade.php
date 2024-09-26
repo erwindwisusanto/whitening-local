@@ -70,7 +70,7 @@
         <section class="benefit">
             <div class="container">
                 <div class="row gx-md-5 gy-4 gy-md-0 align-items-center">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <h3 class="title-line blue">
                             <span> {{__('index.section_5.text_1')}} </span>
                         </h3>
@@ -107,13 +107,13 @@
                                     <span> {{__('index.section_5.text_8')}} </span>
                                 </div>
                                 <div class="items-benefit">
-                                    <img src="assets/img/icon_manfaat_8.png" alt="" style="width: 14%">
+                                    <img src="assets/img/icon_manfaat_8.png" alt="" style="width: 8%">
                                     <span> {{__('index.section_5.text_9')}} </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    {{-- <div class="col-md-4">
                         <div class="d-flex justify-content-center">
                             @if ($locale === 'en')
                                 <img src="assets/img/img-package.svg" class="img-package" alt="">
@@ -123,7 +123,7 @@
                                 <img src="assets/img/img-package.svg" class="img-package" alt="">
                             @endif
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
