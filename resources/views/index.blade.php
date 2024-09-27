@@ -107,7 +107,7 @@
                                     <span> {{__('index.section_5.text_8')}} </span>
                                 </div>
                                 <div class="items-benefit">
-                                    <img src="assets/img/icon_manfaat_8.png" alt="" style="width: 8%">
+                                    <img src="assets/img/icon_manfaat_8_1.svg" alt="">
                                     <span> {{__('index.section_5.text_9')}} </span>
                                 </div>
                             </div>
