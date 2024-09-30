@@ -55,13 +55,13 @@
 
             <div class="row text-center gx-0">
                 <div class="col-12 col-md-12 col-lg-12">
-                    <img src="assets/img/price_c.png" class="" alt="Price C">
+                    <img src="assets/img/price_1.svg" class="" alt="Price C">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12">
-                    <img src="assets/img/price_b.png" class="" alt="Price B">
+                    <img src="assets/img/price_2.svg" class="" alt="Price B">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12">
-                    <img src="assets/img/price_a.png" class="" alt="Price A">
+                    <img src="assets/img/price_3.svg" class="" alt="Price A">
                 </div>
             </div>
             <span style="color: white; padding: 0px 20px 0px 20px; font-weight: 500;">* {{__('index.section_4.text_1')}}</span>
