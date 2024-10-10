@@ -51,7 +51,7 @@
 
     <x-btn-float/>
     <x-footer/>
-
+    @php $locale = session()->get('locale'); @endphp
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -146,6 +146,18 @@
         });
 
         const directurl = (platform) => {
+            const locale = "{{ $locale }}";
+
+            if (waword === '') {
+                if (locale === 'id') {
+                waword = "Halo%20whiteningclinics.com%20by%20Klinik%20Cepat%20Sehat%2C%20saya%20mau%20konsultas";
+                } else if (locale === 'en') {
+                waword = "Hello+whiteningclinics.com+by+Cepat+Sehat+Clinic%2C+I+want+a+consultation";
+                } else {
+                waword = "Hello+whiteningclinics.com+by+Cepat+Sehat+Clinic%2C+I+want+a+consultation";
+                }
+            }
+
             switch (platform) {
                 case _WHATSAPP:
                     if (campaignName) {
@@ -154,7 +166,7 @@
                         break;
                     } else {
                         updateCounter(_WHATSAPP);
-                        window.open(`https://api.whatsapp.com/send/?phone=6282221122311&text=Hello+whiteningclinics.com+by+Cepat+Sehat+Clinic%2C+I+want+a+consultation&type=phone_number&app_absent=0`, '_blank');
+                        window.open(`https://api.whatsapp.com/send/?phone=6282221122311&text=${waword}&type=phone_number&app_absent=0`, '_blank');
                         break;
                     }
                 case _TELEGRAM:
